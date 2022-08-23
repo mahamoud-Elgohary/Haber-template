@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.nav-background{
+    background-color: #3e4952;
+}
+.nav{
+margin: 0 10%;
+
+}
+.logo{
+    float: left;
+    width: 15%;
+    text-align: center;
+    background-color: #d26522;
+    padding: 5px 0;
+}
+.logo h2{
+    font-size: 30px;
+    color: white;
+  
+}
+.logo p{
+    font-size: 12px;
+    color: white;
+}
+.links{
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+}
+.links li {
+    float: left;
+    list-style: none;
+    margin: 20px 10px;
+}
+/* .links ul li a:first-child{
+    color: #d26522;
+} */
+.links li a:hover{
+    color:#d26522;
+}
+.links li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.icons{
+    float: right;
+    width: 20%;
+    margin: 15px 0px;
+}
+.icons .icon{
+    margin:0 10px ;
+    color: #808c94;
+    font-size: 24px;
+} 
+.icons .icon:hover{
+    color:#d26522;
+}
+.banner{
+  position: relative;
+  width: 100%;  
+  /* height: 100vh; */
+}
+.banner-img img{
+    width: 100%;
+    height: 100vh;
+}
+.banner-txt{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    width: 696px;
+    max-width: 100%;
+    background-color: #d26522;
+    /* height: 108px; */
+    font: 700 36px/36px "Archivo Narrow", Helvetica, Arial, sans-serif;
+    text-align: center;
+    transform: translate(-50%, -4px);
+    padding: 25px 0;
+    color: white;
+}
+.our-focus{
+    margin: 0 10%;
+}
+.our-focus h1{
+text-align: center;
+margin: 30px 0;
+text-transform: uppercase;
+}
+.our-focus .box{
+    float: left;
+    width: 20%;
+    margin-right: 53px;
+    margin-bottom: 53px;
+}
+.our-focus .box .icon{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30px;
+   
+
+}
+.our-focus .box .icon i{
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 100%;
+    color: white;
+    background-color:  #d26522;
+}
+.our-focus .box .icon i:hover{
+background-color: #3e4952;
+transition: 0.5s ;
+}
+.our-focus .box h4{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.our-focus .box p{
+    text-align: center;
+    margin: 10px 0;
+    color: #9b9b9b;
+}
+.our-focus .box .button-box {
+    text-align: center;
+    margin: 10px 0;
+}
+.our-focus .box .button-box button{
+    padding: 10px;
+}
+.our-focus .box .button-box button:hover{
+    color: #d26522;
+    
+}
+.advice-on-background{
+    background-color: #cecece;
+}
+.advice-on{
+    margin: 0 10%;
+}
+.advice-on-background h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 52px;
+    font-weight: bold;
+    color: #3e4952;
+}
+.advice-on-background p{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px 0;
+    line-height: 1.66666667;
+    color: #3e4952;
+}
+.advice-on-background .box-advice{
+    float: left;
+    width: 30%;
+background-color: white;
+margin-right: 35px;
+margin-top: 42px;
+margin-bottom: 42px;
+
+}
+.advice-on-background .box-advice img{
+    width: 90%;
+    height: 90%;
+    margin: 15px 15px;
+}
+.advice-on-background .box-advice h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #d26522;
+    
+}
+.advice-on-background .box-advice p{
+    color: #9b9b9b;
+    padding-bottom: 30px;
+}
+.fresh-back{
+    background-color: #d26522;
+    width: 50%;
+    float: left;
+}
+.fresh{
+    margin: 0 10%;
+}
+.fresh h1{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.text-icon {
+    margin-left: 82px;
+    line-height: 2.5;
+}
+.fresh .text-icon p{
+    color: white;
+    
+    font-size: 15px;
+    
+}
+.fresh .text-icon .icon{
+    color: white;
+    float: left;
+   
+    margin-right: 10px;
+    font-size: 15px;
+}
+.learning-save-back{
+    background-color: #3e4952;
+    float: left;
+    width: 50%;
+}
+.learning-save{
+    margin: 0 10%;
+}
+.learning-save  .text-icon .icon{
+    color: white;
+    float: left;
+   
+    margin-right: 10px;
+    font-size: 15px;
+}
+.learning-save .text-icon p{
+    color: white;
+    
+    font-size: 15px;
+    
+}
+.learning-save h1{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+@media (max-width:414px){
+    .our-focus{
+        margin:0;
+    
+    }
+    .our-focus .box{
+        float: left;
+        width: 15%;
+        margin-right: 53px;
+        margin-bottom: 53px;
+        margin-left: 53px;
+    }
+}
+
+
